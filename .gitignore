@@ -1,0 +1,42 @@
+# General
+.DS_Store
+Thumbs.db
+.idea/
+.vs/
+.vscode/
+
+# ASP.NET Core
+# Ignorar binarios y archivos generados por .NET
+/bin/
+/obj/
+
+# Archivos de configuración local
+appsettings.Development.json
+appsettings.Local.json
+
+# Archivos de base de datos locales generados por Entity Framework
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Archivos de usuario generados por Visual Studio
+.vs2019/
+.vs2017/
+.vsconfig/
+
+# Archivos de caché y compilación
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Ignorar el directorio de publicación cuando se sube el proyecto
+publish/
+
+# Archivos generados en pruebas locales de debug
+*.log
+
+# Otros archivos temporales del sistema operativo
+*~
+*.swp
